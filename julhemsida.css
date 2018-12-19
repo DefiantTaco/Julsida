@@ -1,0 +1,94 @@
+* {
+    padding:0;
+    margin:0;
+}
+.mySlides {
+  display:none;
+  width: 100%;
+  height: 60vh;
+}
+.YTSlide{
+    position: relative;
+}
+#LeftButton{
+    position: relative;
+    width: 7%;
+    height: 5vh;
+    border: none;
+    background-color: #f4511e;
+    opacity: 0.5;
+    transition: 0.4s;
+    margin-top: 5px;
+}
+
+#LeftButton:hover {opacity: 1}
+
+#RightButton{
+    position: relative;
+    width: 7%;
+    height: 5vh;
+    float: right;
+    border: none;
+    background-color: #f4511e;
+    opacity: 0.5;
+    transition: 0.4s;
+    margin-top: 5px;
+}
+
+#RightButton:hover {opacity: 1}
+
+#logo{
+  width: 70%;
+  height: 15vh;
+  background: white;
+  position: relative;
+  float:left;
+}
+
+#countdown{
+  width: 25%;
+  height: 10vh;
+  position: relative;
+  float: right;
+  color: yellow;
+  padding-top: 1.2%;
+  padding-right: 2.5%;
+  font-size: 400%;
+  background: transparent;
+  font-family: "ChristmasinFinland";
+}
+
+#jullåtar{
+  width: 43%;
+  height: 60vh;
+  margin-top: 7.5%;
+  margin-left: 4.25%;
+  background: green;
+  position: relative;
+  float: left;
+  border: 5px solid green;
+}
+
+#julbilder{
+  width: 43%;
+  height: 60vh;
+  margin-top: 7.5%;
+  margin-left: 4%;
+  background: green;
+  position: relative;
+  float: left;
+  border: 5px solid green;
+}
+
+#canvas{
+  position: absolute;
+  background-image: url("greenbackground.jpg");
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
+@font-face {
+font-family: "ChristmasinFinland";
+src: url("Christmas in Finland.woff");
+}
