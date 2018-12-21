@@ -10,13 +10,39 @@
 .YTSlide{
     position: relative;
 }
+
+.nav{
+  width: 70%;
+  height: 15vh;
+  position: relative;
+  float: left;
+  background: transparent;
+  opacity: 1;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 50px;
+  padding: 2.5% 2.5% 0 2.5%;
+  margin-left: 10px;
+  border: 2px solid red;
+  color: white;
+  background: green;
+  text-align: center;
+  float: left;
+  height: 11vh;
+  font-family: "ChristmasinFinland";
+  width: 15%;
+  opacity: 0.7;
+}
+
 #LeftButton{
     position: relative;
     width: 7%;
     height: 5vh;
     border: none;
     background-color: #f4511e;
-    opacity: 0.5;
+    opacity: 0.6;
     transition: 0.4s;
     margin-top: 5px;
 }
@@ -30,27 +56,19 @@
     float: right;
     border: none;
     background-color: #f4511e;
-    opacity: 0.5;
+    opacity: 0.6;
     transition: 0.4s;
     margin-top: 5px;
 }
 
 #RightButton:hover {opacity: 1}
 
-#logo{
-  width: 70%;
-  height: 15vh;
-  background: white;
-  position: relative;
-  float:left;
-}
-
 #countdown{
   width: 25%;
   height: 10vh;
   position: relative;
   float: right;
-  color: yellow;
+  color: white;
   padding-top: 1.2%;
   padding-right: 2.5%;
   font-size: 400%;
@@ -61,28 +79,28 @@
 #jullåtar{
   width: 43%;
   height: 60vh;
-  margin-top: 7.5%;
+  margin-top: 5%;
   margin-left: 4.25%;
-  background: green;
+  background: red;
   position: relative;
   float: left;
-  border: 5px solid green;
+  border: 5px solid red;
 }
 
 #julbilder{
   width: 43%;
   height: 60vh;
-  margin-top: 7.5%;
+  margin-top: 5%;
   margin-left: 4%;
-  background: green;
+  background: red;
   position: relative;
   float: left;
-  border: 5px solid green;
+  border: 5px solid red;
 }
 
 #canvas{
   position: absolute;
-  background-image: url("greenbackground.jpg");
+  background-image: url("background.jpg");
   width: 100%;
   height: 100vh;
   display: block;
