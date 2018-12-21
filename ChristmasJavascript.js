@@ -1,5 +1,5 @@
 //YTSlide
-var slideIndex = 1;
+var slideIndex = 0;
 //visar första sliden med yt videon
 showDivs(slideIndex);
 
@@ -53,7 +53,7 @@ function carousel(){
   if (slideIndex > x.length) {
     slideIndex = 1;
   }
-  x[slideIndex-1].style.display = "block"; //ifall du är på index -1 så använd display block för att visa
+  x[slideIndex-1].style.display = "block"; //sätter till display block för att visa
   setTimeout(carousel,3000) //animation loop
 }
 
